@@ -39,7 +39,6 @@ Place the project files in the web server's document root directory (e.g., htdoc
 Ensure that your server is running and navigate to http://localhost/folder_with_project_files in your web browser.
 Usage
 Log In
-
 Visit login.php to log in as an administrator. Enter your credentials to access the dashboard.
 
 
