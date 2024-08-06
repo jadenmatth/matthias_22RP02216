@@ -1,51 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Management System - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        container {
-            padding: 0 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .note {
-            background-color: #f8d7da;
-            color: #721c24;
-            padding: 10px;
-            border: 1px solid #f5c6cb;
-            margin: 10px 0;
-        }
-        .card {
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .card-title {
-            font-size: 1.2em;
-        }
-        .card-text {
-            font-size: 1.1em;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
+
         <h1>Student Management System</h1>
 
-        <div class="note">
             <strong>!!! NB:</strong> use username: <strong>matthias</strong> while password must be: <strong>matthias@123</strong> on the login.php interface
-        </div>
-
         <h2>Overview</h2>
         <p>The Student Management System is a web-based application built using PHP and MySQL for managing student records in a school. It allows administrators to log in, view, add, edit, and delete student records through a user-friendly web interface. The system ensures secure access with session-based authentication and provides a responsive design using Bootstrap.</p>
 
@@ -107,6 +63,4 @@ cd matthias_22RP02216</code></pre>
             <li><strong>Email:</strong> Must be unique across all student records.</li>
             <li><strong>Phone Number:</strong> Must start with "07" and be 10 digits long.</li>
         </ul>
-    </div>
-</body>
-</html>
+
