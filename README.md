@@ -1,6 +1,6 @@
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________
-!!! NB : use username: matthias while password must be : matthias@123 on login.php interface
+<b>!!! NB : use username: matthias while password must be : matthias@123 on login.php interface</b>
 ___________________________________________________________________________________________________________
 _______________________________________________________________________________________________________________
 
@@ -10,19 +10,7 @@ ________________________________________________________________________________
 Student Management System
 ________________________________________________
 
-Overview
 
-The Student Management System is a web-based application built using PHP and MySQL for managing student records in a school. It allows administrators to log in, view, add, edit, and delete student records through a user-friendly web interface. The system ensures secure access with session-based authentication and provides a responsive design using Bootstrap.
-___________________________________________________________________________________________________________________________________________
-____________________________________________________________________________________________________________________________________________
-
-Features
-
-User Authentication: Secure login for administrators.
-CRUD Operations: Create, Read, Update, and Delete student records.
-Validation: Ensures data integrity with validation for email uniqueness and phone number format.
-Responsive Design: Mobile-friendly interface using Bootstrap.
-Icons: Utilizes Font Awesome icons for intuitive navigation and actions.
 Installation
 Prerequisites
 ___________________________________________________________________________________________________________________________
@@ -35,8 +23,8 @@ Setup
 Clone the Repository
 
 
-git clone https://github.com/yourusername/student-management-system.git
-cd student-management-system
+git clone https://github.com/jadenmatth/matthias_22RP02216/
+
 Configure the Database
 
 Create a MySQL database named student_management.
@@ -48,26 +36,10 @@ Set Up Your Web Server
 _________________________________________________________________________________________________________________________
 
 Place the project files in the web server's document root directory (e.g., htdocs for XAMPP).
-Ensure that your server is running and navigate to http://localhost/student_management_system in your web browser.
+Ensure that your server is running and navigate to http://localhost/folder_with_project_files in your web browser.
 Usage
 Log In
 
 Visit login.php to log in as an administrator. Enter your credentials to access the dashboard.
 
-______________________________________________________________________________________________________
-______________________________________________________________________________________________________
-!!! NB : use username: thg while password must be : Chelsea@17
-___________________________________________________________________________________________________________
-_______________________________________________________________________________________________________________
-
-
-Manage Students
-
-View Students: Navigate to index.php to see the list of students.
-Add Student: Use add_student.php to add new student records.
-Edit Student: Click the edit button next to a student's record to modify their details.
-Delete Student: Click the delete button to remove a student record.
-Validation Rules
-Email: Must be unique across all student records.
-Phone Number: Must start with "07" and be 10 digits long.
 
